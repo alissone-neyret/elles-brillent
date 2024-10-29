@@ -1,0 +1,43 @@
+.homepage_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.homepage_header_title {
+  position: relative;
+  font-size: 5.5rem;
+  color: #f6eedd;
+  z-index: 1;
+}
+
+.homepage_header_stars {
+ width: 150px;
+ z-index: 1;
+}
+
+.homepage_header_background {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.homepage_header_title__pink{
+  color: #f9627d;
+}
+
+.homepage_section_registration {  
+  display: flex;
+  align-items: center;
+}
+
+.homepage_section_registration_label{
+  font-size: 2rem;
+  margin-right: 6px;
+}
+
+.homepage_section_registration_input {
+  height: 1.43rem;
+  border-radius: 5px;
+}
