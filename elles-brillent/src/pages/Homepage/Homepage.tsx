@@ -1,4 +1,3 @@
-import React from "react";
 import Brush from "../../assets/brush.png";
 import Stars from "../../assets/stars.png";
 import "./Homepage.css";
