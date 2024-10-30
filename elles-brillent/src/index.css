@@ -9,8 +9,8 @@
 }
 
 body {
-  background: url('../src/assets/background.png') no-repeat center center fixed;
-  background-size: cover;
+  /*background: url('../src/assets/background.png') no-repeat center center fixed;
+  background-size: cover;*/
   color: #7b1e7a;
   display: flex;
   flex-direction: column;
