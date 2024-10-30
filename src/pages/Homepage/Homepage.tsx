@@ -1,11 +1,11 @@
-import "./Homepage.css"
-import { Footer } from "./Footer";
-import { Header } from "./Header"
+import './Homepage.css'
+import { Footer } from './Footer'
+import { Header } from './Header'
 
 export const Homepage = () => {
   return (
     <div className="homepage">
-     <Header />
+      <Header />
 
       <main>
         <section>
@@ -30,9 +30,12 @@ export const Homepage = () => {
             Pour être informé en avant première des invitées, des dates et bien
             plus encore, inscrits-toi
           </p>
-          <form method="POST" action="https://gmail.us17.list-manage.com/subscribe/post">
-          <input type="hidden" name="u" value="8b40db9ee1e5114d385e41c54" />
-          <input type="hidden" name="id" value="540c5117ac" />
+          <form
+            method="POST"
+            action="https://gmail.us17.list-manage.com/subscribe/post"
+          >
+            <input type="hidden" name="u" value="8b40db9ee1e5114d385e41c54" />
+            <input type="hidden" name="id" value="540c5117ac" />
             <div className="homepage_section_registration">
               <label
                 className="homepage_section_registration_label"
@@ -61,5 +64,5 @@ export const Homepage = () => {
 
       <Footer />
     </div>
-  );
-};
+  )
+}

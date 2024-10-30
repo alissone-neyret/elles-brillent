@@ -1,7 +1,7 @@
-import type { FC } from "react"
-import { Header } from "../Homepage/Header"
+import type { FC } from 'react'
+import { Header } from '../Homepage/Header'
 import './LegalNotices.css'
-import { Footer } from "../Homepage/Footer";
+import { Footer } from '../Homepage/Footer'
 
 export const LegalNotices: FC = () => {
   return (
@@ -10,7 +10,7 @@ export const LegalNotices: FC = () => {
       <h2>Directrice de la publication</h2>
       <p>Alissone Neyret</p>
       <h2>Contact</h2>
-			<p>Adresse électronique : alissone.neyret@gmail.com</p>
+      <p>Adresse électronique : alissone.neyret@gmail.com</p>
       <h2>Hébergement</h2>
       <p>Le Site est hébergé par la société Netlify.</p>
       <h2>Contenu et utilisation des informations</h2>
@@ -86,7 +86,7 @@ export const LegalNotices: FC = () => {
         une quelconque information provenant directement ou indirectement de ce
         dernier.
       </p>
-			<Footer />
+      <Footer />
     </>
-  );
-};
+  )
+}
