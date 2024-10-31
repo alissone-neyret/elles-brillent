@@ -18,8 +18,7 @@ export const Homepage = () => {
             </p>
             <p>
               Chaque étoile est invitée pour aborder un sujet précis. Dans Elles
-              brillent, pas de sujet technique, on parle de parcours, on met en
-              avant des réalisations, mais on aborde aussi des sujets peu
+              brillent, on parle de parcours, on met en avant des réalisations, mais on aborde aussi des sujets peu
               visibles.
             </p>
           </div>
@@ -27,8 +26,8 @@ export const Homepage = () => {
         <section>
           <h2>Inscription</h2>
           <p>
-            Pour être informé en avant première des invitées, des dates et bien
-            plus encore, inscrits-toi
+            Pour être informé en avant-première des invitées, des dates et bien
+            plus encore, inscris-toi
           </p>
           <form
             method="POST"

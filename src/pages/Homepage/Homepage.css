@@ -1,5 +1,18 @@
 h2 {
   color: #ffbd59;
+  font-weight: 400;
+}
+
+p {
+  font-family: Public Sans, sans-serif;
+}
+
+header {
+  max-width: 800px;
+}
+
+main {
+  max-width: 800px;
 }
 
 .homepage {
@@ -7,7 +20,7 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 98vh;
+  height: 100vh;
 }
 
 .homepage_header {
@@ -19,9 +32,11 @@ h2 {
 
 .homepage_header_title {
   position: relative;
+  font-family: Chau philomene one, sans-serif;
   font-size: 5.5rem;
   color: #f6eedd;
   z-index: 1;
+  font-weight: normal;
 }
 
 .homepage_header_stars {
@@ -37,6 +52,8 @@ h2 {
 
 .homepage_header_title__pink{
   color: #f9627d;
+  font-weight: normal;
+  font-family: Oswald, sans-serif;
 }
 
 .homepage_section_registration {  
@@ -67,20 +84,4 @@ h2 {
   margin-top: 10px;
   cursor: pointer;
   font-size: 1rem;
-}
-
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #f9627d;
-  font-size: 0.9rem;
-}
-
-a {
-  color: #f9627d;
-}
-
-.homepage_footer_legal_notices {
-  margin-left: 20px;
 }

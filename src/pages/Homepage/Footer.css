@@ -1,0 +1,26 @@
+footer {
+  color: #f9627d;
+  font-size: 0.9rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+a {
+  color: #f9627d;
+}
+
+.footer_content {
+  margin: 0 0 15px 0;
+}
+
+.footer_background{
+  position: absolute;
+  bottom: 0;
+}
+
+.footer_legal_notices {
+  margin: 0 0 15px 20px;
+}
