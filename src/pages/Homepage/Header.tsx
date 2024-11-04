@@ -12,10 +12,6 @@ export const Header: FC = () => {
         <img className="homepage_header_background" src={Brush} alt="" />
       </div>
         {/* <img className="homepage_header_stars" src={Stars} alt="" /> */}
-      <p className="hompegage_header_subtitle">
-        Découvre les parcours inspirants de celles qui font briller la Tech
-        <span style={{fontWeight: "bold"}}> Mardi 26 Novembre à 18h30</span> en direct sur Twitch.
-      </p>
     </header>
   )
 }

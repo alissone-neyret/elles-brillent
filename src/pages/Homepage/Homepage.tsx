@@ -12,7 +12,10 @@ export const Homepage = () => {
   return (
     <div className="homepage">
       <Header />
-
+      <p className="hompegage_header_subtitle">
+        Découvre les parcours inspirants de celles qui font briller la Tech
+        <span style={{fontWeight: "bold"}}> Mardi 26 Novembre à 18h30</span> en direct sur Twitch.
+      </p>
       <main>
         <section className="homepage_what_section">
           <div>

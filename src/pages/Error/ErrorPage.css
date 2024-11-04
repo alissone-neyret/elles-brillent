@@ -1,0 +1,19 @@
+.errorpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorPage_illustration {
+  width: 30%;
+  height: 30%;
+}
+
+.errorPage_text {
+  font-size: 2rem;
+}
+
+.errorpage_cta {
+  margin-bottom: 100px;
+}
