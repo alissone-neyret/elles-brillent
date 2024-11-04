@@ -1,18 +1,29 @@
+.--gold {
+  color: #ffbd59;
+}
+
+.--pink {
+  color: #f9627d;
+}
+
 h2 {
   color: #ffbd59;
   font-weight: 400;
+  font-size: 3.5rem;
+  margin-top: 0;
 }
 
-p {
+p, ul {
   font-family: Public Sans, sans-serif;
 }
 
 header {
-  max-width: 800px;
+  max-width: 1200px;
+  margin-bottom: 80px;
 }
 
 main {
-  max-width: 800px;
+  max-width: 1200px;
 }
 
 .homepage {
@@ -23,31 +34,37 @@ main {
   height: 100vh;
 }
 
-.homepage_header {
+.homepage_header_title_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  margin-top: -20px;
+  position: relative
 }
 
 .homepage_header_title {
-  position: relative;
   font-family: Chau philomene one, sans-serif;
-  font-size: 5.5rem;
+  font-size: 8.5rem;
   color: #f6eedd;
   z-index: 1;
   font-weight: normal;
 }
 
 .homepage_header_stars {
- width: 150px;
+ width: 500px;
  z-index: 1;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ opacity: 0.2;
 }
 
 .homepage_header_background {
   position: absolute;
   top: 0;
   z-index: 0;
+  height: 320px;
+  margin-top: 30px;
 }
 
 .homepage_header_title__pink{
@@ -56,10 +73,51 @@ main {
   font-family: Oswald, sans-serif;
 }
 
+.hompegage_header_subtitle {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  z-index: 1;
+  font-size: 1.3rem;
+}
+
+.homepage_illustration {
+  width: 30%;
+  height: 30%;
+}
+
+.homepage_illustration_inscription {
+  width: 25%;
+  height: 25%;
+}
+
+.--left {
+  margin-right: 80px;
+}
+
+.--right {
+  margin-left: 80px;
+}
+
+.homepage_why_section,.homepage_participation_section, .homepage_what_section, .homepage_guests_section  {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.homepage_guests_section, .homepage_inscription_section {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  justify-content: right;
+}
+
 .homepage_section_registration {  
+  text-align: right;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  align-items: flex-end;
 }
 
 .homepage_section_registration_label{
@@ -70,9 +128,16 @@ main {
 }
 
 .homepage_section_registration_input {
-  height: 1.43rem;
+  font-size: 1.3rem;
+  color: #7b1e7a;
   border-radius: 5px;
   width: 40%;
+  border: 2px solid #ffbd59;
+  height: 40px;
+}
+
+.homepage_section_registration_input:focus {
+  border: 2px solid #62f9f4 !important;
 }
 
 .homepage_section_registration_button {
