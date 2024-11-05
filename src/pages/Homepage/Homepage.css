@@ -17,6 +17,10 @@ p, ul {
   font-family: Public Sans, sans-serif;
 }
 
+p {
+  text-align: justify;
+}
+
 header {
   max-width: 1200px;
   margin-bottom: 20px;

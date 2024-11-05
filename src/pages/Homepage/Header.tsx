@@ -11,7 +11,6 @@ export const Header: FC = () => {
         </h1>
         <img className="homepage_header_background" src={Brush} alt="" />
       </div>
-        {/* <img className="homepage_header_stars" src={Stars} alt="" /> */}
     </header>
   )
 }

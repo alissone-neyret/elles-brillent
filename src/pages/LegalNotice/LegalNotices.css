@@ -1,6 +1,22 @@
-p {
-  /*margin: 20px;*/
-  text-align: justify;
+.legalNotices {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 30px;
+}
+
+.legalNotices > main > h2 {
+  font-size: 2rem;
+}
+
+.legalNotices > main > p {
+  margin-top: 0;
+}
+
+.legalNotices > main {
+  margin-bottom: 50px;
 }
 
 h2 {
