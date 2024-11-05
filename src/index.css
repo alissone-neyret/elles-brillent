@@ -1,3 +1,24 @@
+@font-face {
+  font-family: Oswald;
+  src: url('../src/assets/fonts/Oswald/Oswald-Regular.ttf');
+}
+
+@font-face {
+  font-family: Chau philomene one;
+  src: url('../src/assets/fonts/ChauPhilomeneOne/ChauPhilomeneOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Public Sans;
+  src: url('../src/assets/fonts/PublicSans/PublicSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: Public Sans;
+  src: url('../src/assets/fonts/PublicSans/PublicSans-Bold.ttf');
+  font-weight: bold;
+}
+
 :root {
   font-family: Oswald, Arial, sans-serif;
   line-height: 1.5;
@@ -9,8 +30,6 @@
 }
 
 body {
-  /*background: url('../src/assets/background.png') no-repeat center center fixed;
-  background-size: cover;*/
   color: #7b1e7a;
   display: flex;
   flex-direction: column;
