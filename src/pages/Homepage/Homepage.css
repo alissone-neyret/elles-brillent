@@ -32,6 +32,7 @@ main {
   justify-content: space-between;
   align-items: center;
   height: 100vh;
+  padding: 0 30px;
 }
 
 .homepage_header_title_container {
@@ -158,4 +159,119 @@ main {
   margin-top: 10px;
   cursor: pointer;
   font-size: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+
+  .homepage_why_section,.homepage_participation_section,  .homepage_guests_section  {
+    flex-direction: column-reverse;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  
+  .homepage_guests_section, .homepage_inscription_section, .homepage_what_section {
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .homepage_section_registration {  
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .--left {
+    margin-right: 0;
+  }
+    
+  .--right {
+    margin-left: 0;
+  }
+  
+  .homepage_illustration{
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .homepage_header_background {   
+    height: 120px;
+    width: 403px;
+    margin-top: 65px;
+    margin-left: 184px;
+  }
+
+  .homepage_header_title {
+    font-size: 5rem;
+  }
+
+  .homepage {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 654px) {
+  .homepage_header_background {   
+    height: 120px;
+    width: 403px;
+    margin-top: 65px;
+    margin-left: 184px;
+  }
+
+  .homepage_header_title {
+    font-size: 5rem;
+  }
+
+  .homepage {
+    margin: 0 10px;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .homepage_section_registration_input {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .homepage_header_background {   
+    margin-top: 182px;
+    margin-left: 24px;
+  }
+
+  .homepage_header_title {
+    text-align: center;
+    width: 384px;
+  } 
+  
+  .homepage_section_registration_input {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 484px) {
+  .homepage_header_background {   
+    margin-top: 137px;
+    margin-left: 27px;
+    height: 107px;
+    width: 326px;
+  }
+  
+  .homepage_header_title {
+    font-size: 4rem;
+    text-align: center;
+    width: 350px;
+  }  
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .homepage_illustration{
+    width: 60%;
+    height: 60%;
+  }
 }

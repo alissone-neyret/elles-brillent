@@ -12,14 +12,20 @@ export const Homepage = () => {
   return (
     <div className="homepage">
       <Header />
-      <p className="hompegage_header_subtitle">
-        Découvre les parcours inspirants de celles qui font briller la Tech
-        <span style={{fontWeight: "bold"}}> mardi 26 novembre à 18h30</span> en direct sur Twitch.
-      </p>
       <main>
+        <p className="hompegage_header_subtitle">
+          Découvre les parcours inspirants de celles qui font briller la Tech
+          <span style={{ fontWeight: 'bold' }}>
+            {' '}
+            mardi 26 novembre à 18h30
+          </span>{' '}
+          en direct sur Twitch.
+        </p>
         <section className="homepage_what_section">
           <div>
-            <h2>Qu'est-ce que <span className='--pink'>c'est</span> ?</h2>
+            <h2>
+              Qu'est-ce que <span className="--pink">c'est</span>&nbsp;?
+            </h2>
             <p>
               Un évènement en live et en ligne dans lequel je reçois 3 étoiles
               de la Tech (dev, designer, product manager, CTO etc.) pour trois
@@ -45,7 +51,9 @@ export const Homepage = () => {
             alt="Illustration de 3 femmes"
           />
           <div>
-            <h2><span className='--pink'>Pourquoi</span> ?</h2>
+            <h2>
+              <span className="--pink">Pourquoi</span>&nbsp;?
+            </h2>
             <p>
               Il y a 6 ans, je faisais le grand saut dans le développement web.
               Ce choix, riche en rebondissements, a été marqué par des moments
@@ -70,8 +78,13 @@ export const Homepage = () => {
 
         <section className="homepage_guests_section">
           <div>
-            <h2>Les <span className='--pink'>invitées</span></h2>
-            <p>Pour la première édition, les 3 étoiles invitées seront révélées le 13 Novembre.</p>
+            <h2>
+              Les <span className="--pink">invitées</span>
+            </h2>
+            <p>
+              Pour la première édition, les 3 étoiles invitées seront révélées
+              le 13 Novembre.
+            </p>
           </div>
           <img
             className="homepage_illustration --right"
@@ -87,16 +100,16 @@ export const Homepage = () => {
             alt="Illustration de 3 femmes"
           />
           <div>
-            <h2>Pourquoi <span className='--pink'>participer</span> ?</h2>
+            <h2>
+              Pourquoi <span className="--pink">participer</span>&nbsp;?
+            </h2>
             <ul>
               <li>
                 Apprendre : Découvre les réalisations de ces femmes et des
                 sujets peu visibles
               </li>
               <li>Réseauter : Rejoins une communauté de passionnés</li>
-              <li>
-                S'inspirer : Laisse-toi inspirer par ces parcours riches
-              </li>
+              <li>S'inspirer : Laisse-toi inspirer par ces parcours riches</li>
               <li>
                 Poser des questions : Interagis avec les invitées en direct
               </li>
@@ -106,11 +119,16 @@ export const Homepage = () => {
 
         <section className="homepage_inscription_section">
           <div>
-            <h2>S'<span className='--pink'>inscrire</span></h2>
+            <h2>
+              S'<span className="--pink">inscrire</span>
+            </h2>
             <p>
-              Tu souhaites en savoir plus sur les femmes qui font bouger la
-              tech ? Rejoins nous le <span style={{fontWeight: "bold"}}>26 novembre à 18h30 sur Twitch</span> pour une soirée
-              riche en échanges et en découvertes.
+              Tu souhaites en savoir plus sur les femmes qui font bouger la tech
+              ? Rejoins nous le{' '}
+              <span style={{ fontWeight: 'bold' }}>
+                26 novembre à 18h30 sur Twitch
+              </span>{' '}
+              pour une soirée riche en échanges et en découvertes.
             </p>
             <form
               method="POST"

@@ -24,3 +24,12 @@ a {
 .footer_legal_notices {
   margin: 0 0 15px 20px;
 }
+
+@media screen and (max-width: 484px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
