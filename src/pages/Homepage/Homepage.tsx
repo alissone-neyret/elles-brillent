@@ -40,7 +40,7 @@ export const Homepage = () => {
           <img
             className="homepage_illustration --right"
             src={WhatIllustration}
-            alt="Illustration de 3 femmes"
+            alt=""
           />
         </section>
 
@@ -48,7 +48,7 @@ export const Homepage = () => {
           <img
             className="homepage_illustration --left"
             src={WhyIllustration}
-            alt="Illustration de 3 femmes"
+            alt=""
           />
           <div>
             <h2>
@@ -58,7 +58,7 @@ export const Homepage = () => {
               Il y a 6 ans, je faisais le grand saut dans le développement web.
               Ce choix, riche en rebondissements, a été marqué par des moments
               de doute et d'euphorie. Mais une constante a illuminé mon parcours
-              : la force du collectif féminin.
+              : la force du collectif.
             </p>
             <p>
               Chaque rencontre avec une autre développeuse était une source
@@ -70,7 +70,7 @@ export const Homepage = () => {
               C'est au cours d'une de ces conversations que l'idée d'Elles
               brillent a germé. Un évènement où nous pourrions partager nos
               expériences, nos réussites et nos défis, les sujets qui nous
-              tiennent à cœur et où chacune pourrait trouver la motivation et
+              tiennent à cœur et où chaque personne pourrait trouver la motivation et
               l'inspiration dont elle a besoin.
             </p>
           </div>
@@ -89,7 +89,7 @@ export const Homepage = () => {
           <img
             className="homepage_illustration --right"
             src={GuestsIllustration}
-            alt="Illustration de 3 femmes"
+            alt=""
           />
         </section>
 
@@ -97,7 +97,7 @@ export const Homepage = () => {
           <img
             className="homepage_illustration --left"
             src={ParticipationIllustration}
-            alt="Illustration de 3 femmes"
+            alt=""
           />
           <div>
             <h2>
@@ -105,7 +105,7 @@ export const Homepage = () => {
             </h2>
             <ul>
               <li>
-                Apprendre : Découvre les réalisations de ces femmes et des
+                Apprendre : Découvre les réalisations de ces étoiles et des
                 sujets peu visibles
               </li>
               <li>Réseauter : Rejoins une communauté de passionnés</li>
@@ -123,7 +123,7 @@ export const Homepage = () => {
               S'<span className="--pink">inscrire</span>
             </h2>
             <p>
-              Tu souhaites en savoir plus sur les femmes qui font bouger la tech
+              Tu souhaites en savoir plus sur ces étoiles qui font bouger la tech
               ? Rejoins nous le{' '}
               <span style={{ fontWeight: 'bold' }}>
                 26 novembre à 18h30 sur Twitch
@@ -162,7 +162,7 @@ export const Homepage = () => {
           <img
             className="homepage_illustration_inscription --right"
             src={InscriptionIllustration}
-            alt="Illustration de 3 femmes"
+            alt=""
           />
         </section>
       </main>
