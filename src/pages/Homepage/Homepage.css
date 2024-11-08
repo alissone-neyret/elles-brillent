@@ -219,12 +219,14 @@ main {
   .homepage_header_background {   
     height: 120px;
     width: 403px;
-    margin-top: 65px;
-    margin-left: 184px;
+    margin-top: 182px;
+    margin-left: 24px;
   }
 
   .homepage_header_title {
     font-size: 5rem;
+    text-align: center;
+    width: 384px;
   }
 
   .homepage {
@@ -235,22 +237,6 @@ main {
     font-size: 3rem;
   }
 
-  .homepage_section_registration_input {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 638px) {
-  .homepage_header_background {   
-    margin-top: 182px;
-    margin-left: 24px;
-  }
-
-  .homepage_header_title {
-    text-align: center;
-    width: 384px;
-  } 
-  
   .homepage_section_registration_input {
     width: 70%;
   }
