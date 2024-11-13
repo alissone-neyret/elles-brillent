@@ -1,10 +1,11 @@
 import './Homepage.css'
+import GuestsIllustration from '../../assets/guests.svg'
 import InscriptionIllustration from '../../assets/inscription.svg'
 import ParticipationIllustration from '../../assets/participate.svg'
-import GuestsIllustration from '../../assets/waiting_guests.svg'
 import WhatIllustration from '../../assets/what.svg'
 import WhyIllustration from '../../assets/why.svg'
 
+import { Link } from 'react-router-dom'
 import { Footer } from './Footer'
 import { Header } from './Header'
 
@@ -70,8 +71,8 @@ export const Homepage = () => {
               C'est au cours d'une de ces conversations que l'idée d'Elles
               brillent a germé. Un évènement où nous pourrions partager nos
               expériences, nos réussites et nos défis, les sujets qui nous
-              tiennent à cœur et où chaque personne pourrait trouver la motivation et
-              l'inspiration dont elle a besoin.
+              tiennent à cœur et où chaque personne pourrait trouver la
+              motivation et l'inspiration dont elle a besoin.
             </p>
           </div>
         </section>
@@ -81,10 +82,36 @@ export const Homepage = () => {
             <h2>
               Les <span className="--pink">invitées</span>
             </h2>
-            <p>
-              Pour la première édition, les 3 étoiles invitées seront révélées
-              le 13 Novembre.
-            </p>
+            <p>Pour la première édition, les 3 étoiles invitées sont :</p>
+            <div className='homepage_guests_section_container'>
+              <div>
+                <h3 className='homepage_guests_section_title --gold'>Abeba Ngwe</h3>
+                <Link to="https://www.linkedin.com/in/abebangwe/" target="_blank" >Voir profil</Link>
+                <p>
+                  Abeba vient de sortir son livre, "Réussir ses tests
+                  techniques", le premier en français sur ce sujet, et elle nous
+                  raconte la réalisation de ce projet.
+                </p>
+              </div>
+              <div>
+                <h3 className='homepage_guests_section_title --gold'>Vanessa Seva</h3>
+                <Link to="https://www.linkedin.com/in/vanessasevauiux/" target='_blank'>Voir profil</Link>
+                <p>
+                  Après une reconversion dans le développement web, elle
+                  enchaine avec une reconversion dans le design. Elle nous
+                  raconte pourquoi.
+                </p>
+              </div>
+              <div>
+                <h3 className='homepage_guests_section_title --gold'>Angi Guyard</h3>
+                <Link to="https://www.linkedin.com/in/angi-guyard/" target='_blank'>Voir profil</Link>
+                <p>
+                  On discutera de neurodiversité, autisme et comment vivre
+                  ensemble en prenant en compte les caractéristiques et les
+                  besoins de chacun.
+                </p>
+              </div>
+            </div>
           </div>
           <img
             className="homepage_illustration --right"
@@ -123,8 +150,8 @@ export const Homepage = () => {
               S'<span className="--pink">inscrire</span>
             </h2>
             <p>
-              Tu souhaites en savoir plus sur ces étoiles qui font bouger la tech
-              ? Rejoins nous le{' '}
+              Tu souhaites en savoir plus sur ces étoiles qui font bouger la
+              tech ? Rejoins nous le{' '}
               <span style={{ fontWeight: 'bold' }}>
                 26 novembre à 18h30 sur Twitch
               </span>{' '}
